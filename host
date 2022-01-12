@@ -1,4 +1,6 @@
 # Brigade Youth Computer Black List SITES #
+
+# Video #
 0.0.0.0 youtube.com
 0.0.0.0 m.youtube.com
 0.0.0.0 roblox.com
@@ -7,12 +9,22 @@
 0.0.0.0 hbomax.com
 0.0.0.0 amazon.com
 0.0.0.0 disneyplus.com
+0.0.0.0 tiktok.com
+# Games #
 0.0.0.0
 0.0.0.0
 0.0.0.0
 0.0.0.0
 0.0.0.0
 0.0.0.0
+#Chat #
+0.0.0.0 discord.com
+0.0.0.0 textnow.com
+0.0.0.0 chat.google.com
+0.0.0.0 hangouts.google.com
+0.0.0.0 aim.com
+0.0.0.0
+
 # This MVPS HOSTS file is a free download from:            #
 # http://winhelp2002.mvps.org/hosts.htm                    #
 #                                                          #
