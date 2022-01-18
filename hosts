@@ -10,8 +10,10 @@
 0.0.0.0 www.amazon.com
 0.0.0.0 www.disneyplus.com
 0.0.0.0 www.tiktok.com
+0.0.0.0 www.aol.cm
+0.0.0.0 www.myspace.com
 # Games #
-0.0.0.0
+0.0.0.0 www.epicgames.com
 0.0.0.0
 0.0.0.0
 0.0.0.0
