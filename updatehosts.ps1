@@ -1,12 +1,10 @@
-#######################################
-# Hosts Git Clone
-# Hosts Copy to etc
-#
-# Git
-#######################################
-
-git clone https://github.com/akellybbgc/bbgchostfile.git c:\
+#--------------------------
+# Script: Youth Center Host Blocking
+# Author: Anthony kelly
+# Date: 01/18/2022
+# 
+#--------------------------
+Remove-Item C:\hosts
+Invoke-WebRequest https://raw.githubusercontent.com/akellybbgc/bbgchostfile/main/hosts -O c:\hosts
 Remove-Item -Path c:\windows\system32\drivers\etc\hosts
-Copy-Item -Path "c:\bbgchostfile\hosts" -Destination "c:\windows\system32\drivers\etc\hosts"
-Copy-Item -Path "c:\bbgchostfile\updatehosts.ps1" -Destination "c:\updatehosts.ps1"
-Remove-Item - c:\bbgchostfile\ -recurse
+Copy-Item -Path "c:\hosts" -Destination "c:\windows\system32\drivers\etc\hosts"
